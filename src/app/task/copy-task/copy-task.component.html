@@ -1,0 +1,14 @@
+<form>
+  <h3 md-dialog-title>Move Task</h3>
+  <div md-dialog-content>
+      <md-select class="full-width" placeholder="please choose target task" >
+        <md-option *ngFor="let list of lists" [value]="list">
+          {{list.name}}
+        </md-option>
+      </md-select>
+  </div>
+  <div md-dialog-actions>
+    <button type="button" md-raised-button color="primary" (click)="onClick()">Save</button>
+    <button type="button" md-dialog-close md-button>Close</button>
+  </div>
+</form>

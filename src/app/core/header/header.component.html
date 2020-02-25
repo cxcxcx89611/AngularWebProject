@@ -1,0 +1,8 @@
+<md-toolbar color="primary">
+  <button md-icon-button (click)="openSideBar()">
+    <md-icon svgIcon="menu1"></md-icon>
+  </button>
+  <span>BluePlanet CURLS PSM Platform</span>
+  <span class="fill-remaining-space"></span>
+  <md-slide-toggle (change)="onChange($event.checked)">night mode</md-slide-toggle>
+</md-toolbar>

@@ -1,1 +1,54 @@
-/* You can add global styles to this file, and also import other style files */
+@import 'theme.scss';
+
+html, body, app-root, .site, md-sidenav-container{
+  wideth: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.site{
+  display: flex;
+  flex-direction: column;
+}
+
+.titleFont{
+  font-family: Garamond;
+  font-size: 25px;
+}
+
+.loginimage{
+  display: flex;
+  flex-direction: column;
+}
+
+.md-card-title {
+  font: 5px;
+  color: black;
+}
+
+main {
+  flex: 1;
+}
+
+.md-card-image {
+  width: 17em;
+  height: 4.5em;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.class-right {
+  margin: 10px;
+  text-align: end;
+}
+
+.fill-remaining-space {
+  flex: 1 1 auto;
+}
+
+.radioLabel{
+  margin-right: 10px;
+}
+

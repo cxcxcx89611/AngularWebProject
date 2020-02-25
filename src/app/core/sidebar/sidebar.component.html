@@ -1,0 +1,24 @@
+<md-nav-list>
+  <h3 md-subheader>project task</h3>
+  <md-list-item [routerLink]="['project']" (click)="onNavClick()">
+      <md-icon md-list-icon svgIcon="project" ></md-icon>
+      <span md-line>project</span>
+      <span md-line md-subheader>find all your projects</span>
+  </md-list-item>
+  <h3 md-subheader>calendar</h3>
+  <md-list-item [routerLink]="['tasklists']" (click)="onNavClick()">
+    <md-icon md-list-icon svgIcon="month"></md-icon>
+    <span md-line>month view</span>
+    <span md-line md-subheader>check project task by month</span>
+  </md-list-item>
+  <md-list-item>
+    <md-icon md-list-icon svgIcon="week"></md-icon>
+    <span md-line>week view</span>
+    <span md-line md-subheader>check project task by week</span>
+  </md-list-item>
+  <md-list-item>
+    <md-icon md-list-icon svgIcon="day"></md-icon>
+    <span md-line>day view</span>
+    <span md-line md-subheader>check project task by day</span>
+  </md-list-item>
+</md-nav-list>

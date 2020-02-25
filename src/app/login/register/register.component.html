@@ -1,0 +1,34 @@
+<form [formGroup]="form" (ngSubmit)="onSubmit(form, $event)">
+  <md-card>
+    <md-card-header align="left">
+      <div class = "loginimage">
+        <md-card-title><div class="titleFont">register account</div></md-card-title>
+        <img class = "md-card-image" src="/assets/images/blueplanet.png" alt="">
+      </div>
+    </md-card-header>
+    <md-card-content>
+      <md-input-container class="full-width">
+        <input mdInput type="text" placeholder="your d number" formControlName="dnumber">
+      </md-input-container>
+      <md-input-container class="full-width">
+        <input mdInput type="text" placeholder="your email" formControlName="email">
+      </md-input-container>
+      <md-input-container class="full-width">
+        <input mdInput type="text" placeholder="your password" formControlName="password">
+      </md-input-container>
+      <md-input-container class="full-width">
+        <input mdInput type="text" placeholder="input password again" formControlName="passwordrepeat">
+      </md-input-container>
+      <app-image-list-select
+        [useSvgIcon]="true"
+        [cols]="6"
+        [title]="'please select account icon'"
+        [items]="items"
+        formControlName="avatar">
+      </app-image-list-select>
+      <app-age-input formControlName = "dateOfBirth"></app-age-input>
+      <button md-raised-button color="primary" type="submit">register</button>
+      <button md-button type="close">cancel</button>
+    </md-card-content>
+  </md-card>
+</form>

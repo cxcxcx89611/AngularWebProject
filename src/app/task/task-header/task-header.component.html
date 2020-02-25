@@ -1,0 +1,30 @@
+<div md-subheader class="header-container">
+  <div>
+    <h3>{{header}}</h3>
+  </div>
+  <div class="fill">
+    <button md-button type="button" (click)="onNewTaskClick()">
+      <md-icon>add_circle_outline</md-icon>
+      <span>new task</span>
+    </button>
+  </div>
+  <div>
+    <button md-icon-button [mdMenuTriggerFor]="menu">
+      <md-icon>keyboard_arrow_down</md-icon>
+    </button>
+  </div>
+</div>
+<md-menu #menu="mdMenu">
+  <button md-menu-item (click)="onChangeTaskNameClick()">
+    <md-icon svgIcon="add" class="material-icon" ></md-icon>
+    <span>change task list name</span>
+  </button>
+  <button md-menu-item (click)="onMoveTaskClick()">
+    <md-icon svgIcon="move" class="material-icon"></md-icon>
+    <span>move item</span>
+  </button>
+  <button md-menu-item (click)="onDeleteTaskClick()">
+    <md-icon svgIcon="delete" class="material-icon"></md-icon>
+    <span>delete the list</span>
+  </button>
+</md-menu>

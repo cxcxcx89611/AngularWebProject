@@ -1,0 +1,5 @@
+<md-input-container class="full-width">
+  <input mdInput type="text" placeholder="'create a fast task here'" [(ngModel)]="desc" name="desc" required>
+  <button mdSuffix md-icon-button type="button" (click)="sendQuickTask()"><md-icon>send</md-icon></button>
+  <md-error>can't be blank</md-error>
+</md-input-container>

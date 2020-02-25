@@ -1,0 +1,233 @@
+{
+  "users": [
+    {
+      "password": "123",
+      "name": "Izzy",
+      "avatar": "avatars:svg-1",
+      "email": "izzychen0611@gmail.com",
+      "id": "1",
+      "projectIds": [
+        "1"
+      ]
+    },
+    {
+      "password": "Ls123456",
+      "name": "Izzy",
+      "avatar": "avatars:svg-2",
+      "email": "wpcfan@blueplanet.com",
+      "id": "2",
+      "projectIds": [
+        "1"
+      ]
+    },
+    {
+      "password": "Ls123456",
+      "name": "Frank",
+      "avatar": "avatars:svg-2",
+      "email": "wpcfan@blueplanet.com",
+      "id": "3",
+      "projectIds": [
+        "2"
+      ]
+    }
+  ],
+  "taskLists": [],
+  "tasks": [],
+  "project": [
+    {
+      "id": 1,
+      "name": "CURLS",
+      "desc": "CURLS: DB schema name CURLS",
+      "coverImg": "assets/images/cover/0.JPG",
+      "members": [
+        "1",
+        "2"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "HFCL",
+      "desc": "HFCL: DB schema name HFCL",
+      "coverImg": "assets/images/cover/1.JPG",
+      "members": [
+        "1"
+      ]
+    },
+    {
+      "id": 3
+    },
+    {
+      "id": 4
+    },
+    {
+      "id": 5
+    },
+    {
+      "id": 6
+    },
+    {
+      "name": "dd",
+      "desc": "ddfg",
+      "coverImg": "/assets/images/covers/2.jpg",
+      "id": 7
+    },
+    {
+      "name": "SLAW",
+      "desc": "SLAW PSM",
+      "coverImg": "/assets/images/covers/3.jpg",
+      "id": 8
+    },
+    {
+      "name": "adsd",
+      "desc": "asdf",
+      "coverImg": "/assets/images/covers/1.jpg",
+      "id": 9
+    },
+    {
+      "name": "efesf",
+      "desc": "dsfsd",
+      "coverImg": "/assets/images/covers/1.jpg",
+      "id": 10
+    },
+    {
+      "name": "ssdfsd",
+      "desc": "fdsfs",
+      "coverImg": "/assets/images/covers/1.jpg",
+      "id": 11
+    },
+    {
+      "name": "sdfsdf",
+      "desc": "dd",
+      "coverImg": "/assets/images/covers/1.jpg",
+      "id": 12
+    },
+    {
+      "name": "sdfsd2",
+      "desc": "fdsfs",
+      "coverImg": "/assets/images/covers/1.jpg",
+      "id": 13
+    },
+    {
+      "name": "dfd",
+      "desc": "fdfd",
+      "coverImg": "/assets/images/covers/1.jpg",
+      "id": 14
+    },
+    {
+      "name": "dsfds",
+      "desc": "fdsfds",
+      "coverImg": "/assets/images/covers/0.jpg",
+      "id": 15
+    },
+    {
+      "name": "sdfds",
+      "desc": "fdsf",
+      "coverImg": "/assets/images/covers/1.jpg",
+      "id": 16
+    },
+    {
+      "name": "dsfs2",
+      "desc": "fdsdf",
+      "coverImg": "/assets/images/covers/5.jpg",
+      "id": 17
+    },
+    {
+      "name": "dfsfds3455",
+      "desc": "fdsfds",
+      "coverImg": "/assets/images/covers/5.jpg",
+      "id": 18
+    },
+    {
+      "id": 19,
+      "name": "dfd",
+      "desc": "fdsf",
+      "coverImg": "/assets/images/covers/1.jpg"
+    },
+    {
+      "id": 20,
+      "name": "fdsf2222",
+      "desc": "fdsfds",
+      "coverImg": "/assets/images/covers/1.jpg"
+    },
+    {
+      "id": 21,
+      "name": "2222",
+      "desc": "32222",
+      "coverImg": "/assets/images/covers/1.jpg"
+    },
+    {
+      "id": 22,
+      "name": "dfdf",
+      "desc": "fsdfds",
+      "coverImg": "/assets/images/covers/0.jpg"
+    },
+    {
+      "id": 23,
+      "name": "dfsf2222",
+      "desc": "fds",
+      "coverImg": "/assets/images/covers/5.jpg"
+    }
+  ],
+  "quotes": [
+    {
+      "id": "0",
+      "cn": " Project CURLS kick start, already get approved",
+      "en": "I suddenly feel myself like a doll,acting all kinds of joys and sorrows.There are lots of shining silvery thread on my back,controlling all my action.",
+      "pic": "/assets/images/quotes/0.jpg"
+    },
+    {
+      "id": "1",
+      "cn": "Project HFCL kick start, already approved",
+      "en": "Being defeated is often a temporary condition. Giving up is what makes it permanent.",
+      "pic": "/assets/images/quotes/1.jpg"
+    },
+    {
+      "id": "2",
+      "cn": "Project ALAN sprint 3 get approved",
+      "en": "Do not, for one repulse, forgo the purpose that you resolved to effect.",
+      "pic": "/assets/images/quotes/2.jpg"
+    },
+    {
+      "id": "3",
+      "cn": "Project HFCL kick start, already approved",
+      "en": "Discovery requires experimentation, and this experiment will take time.",
+      "pic": "/assets/images/quotes/3.jpg"
+    },
+    {
+      "id": "4",
+      "cn": "Project ALAN sprint 3 get approved",
+      "en": "The world won't care about your self-esteem. The world will expect you to accomplish something before you feel good about yourself.",
+      "pic": "/assets/images/quotes/4.jpg"
+    },
+    {
+      "id": "5",
+      "cn": "Project HFCL kick start, already approved",
+      "en": "When you finally let go of the past, something better comes along.",
+      "pic": "/assets/images/quotes/5.jpg"
+    },
+    {
+      "id": "6",
+      "cn": "Project HFCL kick start, already approved",
+      "en": "We learn to let go of things and people that hurt us in the past and just move on. For life is all about moving on.",
+      "pic": "/assets/images/quotes/6.jpg"
+    },
+    {
+      "id": "7",
+      "cn": "Project HFCL kick start, already approved",
+      "en": "Never reject an idea, dream or goal because it will be hard work. Success rarely comes without it.",
+      "pic": "/assets/images/quotes/7.jpg"
+    },
+    {
+      "id": "8",
+      "cn": "Project HFCL kick start, already approved",
+      "en": "We all make our choices in life. The hard thing to do is live with them.",
+      "pic": "/assets/images/quotes/8.jpg"
+    },
+    {
+      "id": "9",
+      "cn": " ",
+      "en": "I have always been delighted at the prospect of a new day, a fresh try, one more start, with perhaps a bit of magic waiting somewhere behind the morning.",
+      "pic": "/assets/images/quotes/9.jpg"
+    }
+  ]
+}

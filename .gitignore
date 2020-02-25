@@ -1,42 +1,16 @@
-# See http://help.github.com/ignore-files/ for more about ignoring files.
+src/main/frontend/bs-config.json
+src/main/frontend/package.json
+src/main/frontend/.idea/
+src/main/frontend/tmp/
+src/main/frontend/node_modules/
+src/main/frontend/node/
+src/main/frontend/.sass-cache/
+src/main/frontend/dr-modules.json
+src/main/frontend/.angular-cli.json
+src/main/frontend/npm-shrinkwrap.json
+src/main/frontend/src/environments
+target/
+node_modules/
 
-# compiled output
-/dist
-/tmp
-/out-tsc
-
-# dependencies
-/node_modules
-
-# IDEs and editors
-/.idea
-.project
-.classpath
-.c9/
-*.launch
-.settings/
-*.sublime-workspace
-
-# IDE - VSCode
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-
-# misc
-/.sass-cache
-/connect.lock
-/coverage
-/libpeerconnection.log
-npm-debug.log
-testem.log
-/typings
-
-# e2e
-/e2e/*.js
-/e2e/*.map
-
-# System Files
+*.iml
 .DS_Store
-Thumbs.db

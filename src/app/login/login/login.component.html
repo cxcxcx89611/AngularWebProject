@@ -1,0 +1,35 @@
+<form [formGroup]="form" (ngSubmit)="onSubmit(form, $event)">
+  <md-card>
+  <md-card-header align="left">
+    <div class = "loginimage">
+    <md-card-title color="primary"><div class="titleFont">Login</div></md-card-title>
+    <img class = "md-card-image" src="/assets/images/blueplanet.png" alt="">
+    </div>
+  </md-card-header>
+  <md-card-content>
+    <md-input-container class="full-width">
+      <input mdInput type="text" placeholder="your email" formControlName="email">
+    </md-input-container>
+    <md-input-container class="full-width">
+      <input mdInput type="text" placeholder="your password" formControlName="password">
+    </md-input-container>
+    <button md-raised-button color="primary" type="submit" [disabled]="!form.valid">login</button>
+    </md-card-content>
+  <md-card-actions class="class-right">
+    <p>create new account <a routerLink="/register">register</a></p>
+    <p>forget password <a href="">find back</a></p>
+  </md-card-actions>
+  </md-card>
+  <md-card>
+      <md-card-title class="full-width">
+        daily golden words
+      </md-card-title>
+      <md-card-subtitle class="full-width">
+        {{quote.cn}}
+      </md-card-subtitle>
+      <img md-card-image [src]="quote.pic" alt="quote image">
+      <md-card-content class="full-width">
+        {{quote.en}}
+      </md-card-content>
+  </md-card>
+</form>
